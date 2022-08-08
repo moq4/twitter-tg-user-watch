@@ -1,0 +1,23 @@
+{
+  "name": "twitter-user-watch-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^18.6.4",
+    "dotenv": "^16.0.1",
+    "needle": "^3.1.0",
+    "node-telegram-bot-api": "^0.58.0",
+    "typescript": "^4.7.4"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./bin/app.js",
+    "dev": "ts-node ./src/app.ts"
+  },
+  "devDependencies": {
+    "@types/needle": "^2.5.3",
+    "@types/node-telegram-bot-api": "^0.57.1",
+    "ts-node": "^10.9.1"
+  }
+}
